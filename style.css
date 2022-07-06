@@ -6,7 +6,9 @@ body {
 h1 {
     font-size: 50px;
 }
-
+h2{
+    font-size: 40px;
+}
 .color-class {
     color: blue;
 }
@@ -37,10 +39,32 @@ h1 {
 .sec1bg {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    
+
 }
+
 .sec2bg {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right ;
+    background-position: right;
+}
+.hh1{
+    width: 40%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.newbg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+}
+#hh3{
+    border-left: 8px solid tomato;
+}
+#hh4{
+    border-left: 8px solid blue;
+}
+footer p{
+    text-align: center;
 }
